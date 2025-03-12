@@ -2,6 +2,8 @@
 
 echo "Updating package list..."
 sudo apt update
+sudo add-apt-repository ppa:neovim-ppa/unstable -y
+sudo apt install -y unzip
 
 # Install Neovim if not installed
 if ! command -v nvim &>/dev/null; then
