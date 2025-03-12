@@ -22,7 +22,3 @@ chmod +x nvim/install.sh
 # Run the installation script
 ./nvim/install.sh
 ```
-
-## Notes  
-- Ensure you have Neovim installed before running the script.  
-- The installation script may require additional dependencies—check the output for any missing packages.  
